@@ -1,0 +1,26 @@
+// CSS Variables and Mixins
+
+// Typography
+$titleFont: 'Lobster', cursive;
+$bodyFont: 'Montserrat', sans-serif;
+
+// Main App Colors
+$blue: #003052;
+$aqua: #007991;
+$teal: #439A86;
+$lightSage: #BCD8C1;
+$lightYellow: #E9D985;
+
+// Other App Colors
+$white: #FFFFFF;
+$black: #000000;
+$lightGray: #CED4DA;
+$mediumGray: #ADB5BD;
+$darkGray: #495057;
+
+@mixin flexCenter($direction) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+}

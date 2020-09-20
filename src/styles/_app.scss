@@ -1,4 +1,17 @@
-$mainColor: #BADA55;
+
+.app-header {
+	@include flexCenter(column);
+}
+
+.hello {
+	font-family: $titleFont;
+	color: $blue;
+}
+
+
+
+
+// Base styles from creat-react-app
 
 // .App {
 // 	text-align: center;
@@ -25,8 +38,6 @@ $mainColor: #BADA55;
 // 		animation: App-logo-spin infinite 20s linear;
 // 	}
 // }
-
-
 
 // .App-link {
 //   	color: #61dafb;

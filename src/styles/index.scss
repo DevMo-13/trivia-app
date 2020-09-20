@@ -1,9 +1,9 @@
+@import './_variables.scss';
+@import './_app.scss';
+
 body {
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $bodyFont;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-// for when adding this font to title:
-// font-family: 'Lobster', cursive;
