@@ -10,13 +10,13 @@ nav {
 	width: 100%;
 	padding: 15px 50px 15px 50px;
 	display: flex;
-	box-shadow: 0 5px 25px rgba(0,0,0,.05), 0 1px 5px rgba(0,0,0,.2);
+	box-shadow: $boxShadow;
 
 	& a {
 		text-decoration: none;
 		
 		:hover {
-			color: $aqua;
+			color: $darkGray;
 		}
 	}
 }
@@ -24,5 +24,6 @@ nav {
 .title {
 	font-family: $titleFont;
 	color: $blue;
+	text-shadow: $lightGray 2px 2px 2px;
 	font-size: 3rem;
 }

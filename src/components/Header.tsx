@@ -5,7 +5,7 @@ function Header() {
 		<>
 			<nav>
 				<a href='/'>
-					<h1 className='title'>Hello World Trivia</h1>
+					<h1 className='title'>MoTrivia</h1>
 				</a>
 			</nav>
 		</>
