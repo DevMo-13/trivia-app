@@ -1,6 +1,6 @@
 @import './_variables';
 @import './_app';
-@import './nav';
+@import './_header';
 
 * {
     box-sizing: border-box;
@@ -9,6 +9,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	font-size: 13px;
 }
 
 body {
