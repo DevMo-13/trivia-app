@@ -1,14 +1,17 @@
 import React from 'react';
+import Nav from './components/Nav';
 
 function App() {
 	return (
-		<div className='app'>
-			<header className='app-header'>
-				<h1 className='hello'>Hello World</h1>
-				<p>Sass-y</p>
-				<button>Practice</button>
-			</header>
-		</div>
+		<>
+			<div className='content'>
+				<Nav />
+				<main>
+					<h1>blah blah blah</h1>
+				</main>
+				<footer>Sticky Footer</footer>
+			</div>
+		</>
 	);
 }
 
