@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -9,7 +10,7 @@ function App() {
 				<main>
 					<h1>Let's play trivia!</h1>
 				</main>
-				<footer>Sticky Footer</footer>
+				<Footer />
 			</div>
 		</>
 	);
